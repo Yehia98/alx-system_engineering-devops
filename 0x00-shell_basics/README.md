@@ -15,3 +15,4 @@ file :prints the type of the file
 ln -s: to create a symbolic link
 cp -un *.html ../: copies all the .html files that did not exist in the parent of the working directoryto the parent working directory.
 mv [[:upper:]]* /tmp/u: moves all files that begins with uppercase letter
+rm *~ : removes all files that ens with ~
