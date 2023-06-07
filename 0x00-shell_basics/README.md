@@ -11,3 +11,4 @@ rmdir: deletes directories
 cd -: gets u to the previous working directory
 ls -la . .. /boot: lists all files in the current, parent and /boot 
 directories
+file :prints the type of the file
