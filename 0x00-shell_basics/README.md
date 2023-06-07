@@ -17,3 +17,4 @@ cp -un *.html ../: copies all the .html files that did not exist in the parent o
 mv [[:upper:]]* /tmp/u: moves all files that begins with uppercase letter
 rm *~ : removes all files that ens with ~
 mkdir -p welcome/to/school : -p creates directories with much parents
+ls amvp
