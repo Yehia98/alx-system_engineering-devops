@@ -8,3 +8,4 @@ mkdir /tmp/my_first_directory: creating a dire in the desired destination
 mv : moves files or directories
 rm: deletes files
 rmdir: deletes directories
+cd -: gets u to the previous working directory
