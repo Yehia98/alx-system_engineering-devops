@@ -7,3 +7,4 @@ ls -na: like ls-la but with user and group IDs displayed numerically
 mkdir /tmp/my_first_directory: creating a dire in the desired destination
 mv : moves files or directories
 rm: deletes files
+rmdir: deletes directories
