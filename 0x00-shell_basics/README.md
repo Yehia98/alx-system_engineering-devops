@@ -5,3 +5,4 @@ ls -l: to list items in a long format
 ls -la: to list all items even hidden ones in a long format
 ls -na: like ls-la but with user and group IDs displayed numerically
 mkdir /tmp/my_first_directory: creating a dire in the desired destination
+mv : moves files or directories
