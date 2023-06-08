@@ -8,3 +8,4 @@ chmod ug+x,o+r hello:adds execute permission to the owner and the group owner wh
 chmod ugo+x hello: adds execute permission to the owner,group owner and other users.
 chmod 007 hello: adds all permissions to only the other users.
 chmod 753 hello :adds all permissions to the owner while read and excuete permission to the group owner and write and execute to other users.
+chmmod --reference=olleh: 
