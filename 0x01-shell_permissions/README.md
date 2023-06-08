@@ -9,4 +9,4 @@ chmod ugo+x hello: adds execute permission to the owner,group owner and other us
 chmod 007 hello: adds all permissions to only the other users.
 chmod 753 hello :adds all permissions to the owner while read and excuete permission to the group owner and write and execute to other users.
 chmmod --reference=olleh hello:copies olleh file permissions to the hello file.
-chmod -R +x .: adds the execute permission to all over the current working directory.
+chmod -R +X .: adds the execute permission to all over the current working directory.
