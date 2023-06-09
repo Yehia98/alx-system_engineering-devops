@@ -13,4 +13,4 @@ chmod -R +X .: adds the execute permission to all over the current working direc
 mkdir -m 751 my_dir:creates directory with mode (permissions) 751.
 chgrp school hello :hanges the group owner to school for the file hello.
 chown vincent:staff *:
-chown vincent:staff _hello :
+chown -h vincent:staff _hello :
