@@ -15,3 +15,4 @@ chgrp school hello :hanges the group owner to school for the file hello.
 chown vincent:staff *:
 chown -h vincent:staff _hello :
 chown --from=guillaume  betty hello :
+telnet towel.blinkenlights.nl
