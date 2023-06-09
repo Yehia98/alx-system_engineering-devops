@@ -12,3 +12,4 @@ chmmod --reference=olleh hello:copies olleh file permissions to the hello file.
 chmod -R +X .: adds the execute permission to all over the current working directory.
 mkdir -m 751 my_dir:creates directory with mode (permissions) 751.
 chgrp school hello :hanges the group owner to school for the file hello.
+sudo chown vincent:staff /* :
