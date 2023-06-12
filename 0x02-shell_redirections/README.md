@@ -1,3 +1,3 @@
 echo "Hello, World"
-echo "/"(Ôo)'
+echo "\"(Ôo)'
 
