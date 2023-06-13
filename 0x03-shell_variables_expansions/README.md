@@ -10,4 +10,4 @@ export BEST=School
 echo $(($TRUEKNOWLEDGE + 128))
 echo $(($POWER / $DIVIDE))
 echo $(($BREATH**$LOVE))
-echo $((2#BINARY)0)
+echo $((2#BINARY)o)
