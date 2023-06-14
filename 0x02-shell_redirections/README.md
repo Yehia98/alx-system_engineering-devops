@@ -22,4 +22,4 @@ tr "A" "Z" | tr "c" "e"
 tr -d "cC"
 rev
 cut -d ':' -f 1,6 /etc/passwd | sort
-find . -empty -printf "@f\n"
+find . -empty | rev | cut -d '/' -f 1 | rev
