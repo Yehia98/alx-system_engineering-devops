@@ -17,7 +17,7 @@ grep root /etc/passwd
 grep -c bin /etc/passwd
 grep root -A 3 /etc/passwd
 grep -i -v "bin" /etc/passwd
-grep -i {a..z} /etc/ssh/sshd_config
+grep -i ${a..z} /etc/ssh/sshd_config
 tr "A" "Z" | tr "c" "e"
 tr -d "cC"
 rev
