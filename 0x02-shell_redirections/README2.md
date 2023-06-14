@@ -15,4 +15,4 @@ grep -i root /etc/passwd
 grep -ci bin /etc/passwd
 grep root -A 3 /etc/passwd
 grep -v bin /etc/passwd
-grep -i {a..z} /etc/ssh/sshd_config
+grep -i ^[a-z] /etc/ssh/sshd_config
