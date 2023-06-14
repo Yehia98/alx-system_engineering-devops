@@ -13,4 +13,6 @@ ls -t | head -n 10
 sort | uniq -u
 grep -i root /etc/passwd
 grep -ci bin /etc/passwd
-grep root
+grep root -A 3 /etc/passwd
+grep -v bin /etc/passwd
+grep -i {a..z} /etc/ssh/sshd_config
