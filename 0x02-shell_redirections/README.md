@@ -26,3 +26,4 @@ find . -empty | rev | cut -d '/' -f 1 | rev
 find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | r
 ev | LC_ALL=C sort -f
 cut -C 1 | paste -s -d '|'
+echo $(cut -C 1 | tr -d "\n") 
