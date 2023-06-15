@@ -15,3 +15,4 @@ echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"
 printf "%.2f" $NUM | sort
 printf '%x\n' $DECIMAL
 tr A-Za-z N-ZA-Mn-za-m
+paste -d, - - | cut -d, -f1
